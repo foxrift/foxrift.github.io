@@ -25,6 +25,7 @@ title: Foxrift
 email: boris.borgobello@gmail.com
 url: "https://foxrift.com"
 author: "Boris Borgobello"
+logo: favicon.png
 #facebook:
 #  app_id: 1234
 #  publisher: 1234
@@ -38,12 +39,17 @@ theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+social:
+  links:
+    - https://www.facebook.com/boris.borgobello
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
+exclude:
+  - raw_assets
+  - trash
+#  - Gemfile
 #   - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
