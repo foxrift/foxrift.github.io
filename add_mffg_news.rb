@@ -15,8 +15,8 @@ def await_user_enter(description = '')
 end
 
 TMP_FILE = './tmptmptmp.txt'
-
-title = Time.now.strftime("%d/%m/%y") + " - " + input("Title ?")
+date = Time.now.strftime("%d/%m/%y")
+title = date + " - " + input("Title ?")
 
 await_user_enter('specify body. Use - to list items')
 
@@ -86,3 +86,7 @@ sleep 10
 await_user_enter('OK')
 
 thr.kill
+
+`git add pages/mffg/news.html ; git commit -m "Update news #{date}"`
+
+puts 'Remember to push !'
