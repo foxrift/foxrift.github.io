@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-# Copyright Foxrift / Boris Borgobello
+# Copyright © 2019 Foxrift / Boris Borgobello
 
 def input(msg)
     print("#{msg} : ")
