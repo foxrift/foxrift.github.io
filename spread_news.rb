@@ -1,3 +1,7 @@
+#!/usr/bin/ruby
+
+# Copyright © 2019 Foxrift / Boris Borgobello
+
 BASE_MFFG_FOLDER = './pages/mffg'
 BASE_NEWS = "#{BASE_MFFG_FOLDER}/news.html"
 
