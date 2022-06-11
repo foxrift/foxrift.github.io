@@ -1,0 +1,67 @@
+---
+layout: mffg_general
+title: "MFFG - General"
+description: "Application MFFG - My France Foreigner Guide"
+permalink: /mffg/vi/general
+---
+
+<button class="collapsible">How to use it</button>
+<div class="content1">
+  <p class="paddtop18">You can subscribe to receive notifications. MFFG will send you a notification whenever a new appointment is available. No special permission besides internet is required. 
+  	<br/>It does not use any battery in background and once you have enabled the notification you are interested in, you don't need to start the appliction again (but keep it installed). You will be notified of any change by notification.
+  	<br/><br/>No personal data is required. Application does not access files, cameras or anything else.
+  	<br/><br/>It is still recommended to update the app from the store and start it once in a while to have an updated version.
+  </p>
+</div>
+<button class="collapsible">Legal</button>
+<div class="content1">
+  <p class="paddtop18">MFFG is a 100% legal and free service. It may contain advertisement. It is a win-win in the middle service for the clients and it protects servers.
+  	<br/><br/>What it is not :
+  	<br/>
+  	<ul>
+  		<li>It does not bypass any step of any kind in the form processes</li>
+		<li>It does not automatically do an action for you like auto-registration</li>
+  	</ul>
+  	What it is :
+  	<br/><br/>
+  	<ul>
+  		<li>Instead of refreshing all the time on you own, it notifies you when a service is available</li>
+  		<li>You still have to connect by yourself and follow the whole process alone from zero</li>
+  	</ul>
+  	</p>
+</div>
+<button class="collapsible">How MFFG works</button>
+<div class="content1">
+  <p class="paddtop18">
+    MFFG server is doing all the job. Your phone never connects directly to the services. MFFG stalks the services periodically (it does not flood the servers), average is once every 20 to 25 minutes. Whenever the status of the service changes it broadcasts a notification to the subscribed users.
+    <br/><br/>This has many benefits :
+    <ul>
+  		<li>Instead of many people checking periodically, you trust us and it is as if only one person was checking (our MFFG server). As a consequence it reduces the total amount of requests received by the service you try to use</li>
+  		<li>The service you try to join is fully respected as we do not allow users to bypass any mandatory step</li>
+  		<li>You do not waste any time checking the service yourself, especially since the services will usually have an IP-based rate limiter that will fire Bad Gateways or internal server errors at you</li>
+  	</ul>
+  </p>
+</div>
+<button class="collapsible">Need another service ?</button>
+<div class="content1">
+  <p class="paddtop18">
+    I will try to add all the services you require based on demand.
+  </p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
