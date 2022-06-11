@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages - foxrift
+## Welcome to GitHub Pages - foxrift©
 
 You can use the [editor on GitHub](https://github.com/borisborgobello/www-foxrift/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
