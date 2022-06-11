@@ -1,0 +1,57 @@
+---
+layout: splash
+author_profile: false
+title: "Foxrift started !" # use " " to remove title from header
+excerpt: "The roadmap at a glance !"
+header:
+    overlay_image: "/assets/projects/honey/featured1.jpg"
+    actions:
+    - label: "More Info"
+      url: "/company-creation/"
+feature_row:
+  - image_path: "/assets/projects/honey/featured1.jpg"
+    # image_caption: "TODO"
+    alt: "placeholder image 2"
+    title: "Project Honey"
+    excerpt: "Our first mobile Unity based game 🐝.<br>Expected Q2 2023."
+    #url: "/project-honey/"
+    #btn_label: "Read More"
+    #btn_class: "btn--inverse"
+  - image_path: "/assets/projects/shinto/featured1.jpg"
+    # image_caption: "TODO"
+    alt: "placeholder image 2"
+    title: "Project Shinto"
+    excerpt: "Our first **educational** japan related app 🇯🇵. ちょっとまってください !<br>Expected Q2 2023."
+    #url: "/project-shinto/"
+    #btn_label: "Read More"
+    #btn_class: "btn--inverse"
+  - image_path: "/assets/projects/fusilli/featured1.jpg"
+    # image_caption: "TODO"
+    alt: "placeholder image 2"
+    title: "Project Fusilli"
+    excerpt: "Our first C2C food related platform 👨‍🍳.<br>Expected Q4 2023."
+    #url: "/project-fusilli/"
+    #btn_label: "Read More"
+    #btn_class: "btn--inverse"
+---
+
+<h1>Featured</h1> 
+
+{% include feature_row id="feature_row" %}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+{% include paginator.html %}
