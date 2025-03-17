@@ -41,31 +41,4 @@ However, we will be keeping all information that needs to be kept according to t
 * Email : <a href="https://www.zoho.com/mail/gdpr.html">Our partner</a>
 * General : Firebase region EUR3
 
-#### Partners
-
-{: .text-justify}
-We are potentially collecting data for the following partners/products/companies.
-<br>
-
-<ul>
-<li>Meta Audience Network</li>
-<li>AdMob</li>
-<li>MoPub</li>
-<li>InMobi</li>
-<li>ironSource</li>
-<li>Unity Ads</li>
-<li>AppLovin</li>
-<li>AdColony</li>
-<li>Chartboost</li>
-<li>Tapjoy</li>
-<li>Vungle</li>
-<li>Adaction</li>
-<li>Google Firebase</li>
-<li>Appodeal - <a href="https://www.appodeal.com/home/privacy-policy/">Link</a></li>
-<li>Zoho - <a href="https://www.zoho.com/mail/gdpr.html">Link</a></li>
-</ul>
-
-{: .text-justify}
-You are also consenting to all the previously listed partners/products/companies's Privacy Policies.
-
 <br><br>By using our website and applications, you hereby consent to our Privacy Policy.
