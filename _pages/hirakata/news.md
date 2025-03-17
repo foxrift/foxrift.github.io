@@ -11,8 +11,8 @@ toc: false
 	}
 </style>
 
-## News
+# News
 
-### 17/03/2025 - Alpha phase
+## 17/03/2025 - Alpha phase
 
 Hirakata Quickdraw is entering alpha phase !
