@@ -1,11 +1,11 @@
 ---
 author: borisborgobello
 published: true
-title: 2025 for the app fireworks !
-excerpt: 2025 Roadmap, here we go !
+title: 2026 for the app fireworks !
+excerpt: 2026 Roadmap, here we go !
 #header:
 #    overlay_image: "/assets/projects/honey/featured1.jpg"
-tags: company roadmap foxrift 2025
+tags: company roadmap foxrift 2026
 toc: true
 toc_label: "Content"
 toc_icon: "cog"
@@ -14,7 +14,7 @@ toc_icon: "cog"
 
 ## General news
 
-As of 2025, we are now entering phase 2 with development as the main goal of Foxrift. For that occasion we've equipped ourselved with brand new stuff !
+As of 2026, we are now entering phase 2 with development as the main goal of Foxrift. For that occasion we've equipped ourselved with brand new stuff !
 
 ## Roadmap
 
@@ -48,7 +48,7 @@ Honey has a first working version but it needs to be improved. It lacks addictio
 
 Coconut is a VR sport game targetted for Meta Quest 2/3. We want it it be efficient, addictive, interactive and funny.
 
-Coconut will be a game for the Meta Store, and will be available on Steam probably in 2025.
+Coconut will be a game for the Meta Store, and will be available on Steam probably in 2026.
 **Release : Q4**
 
 ### Fusilli, priority 3
@@ -61,7 +61,7 @@ It implies :
 * Specific privacy policy, terms of service, support, security, scalability, etc
 
 The business model won't be disclosed prior to release.  
-**Release : 2025**
+**Release : 2026**
 
 ## Beta testers
 

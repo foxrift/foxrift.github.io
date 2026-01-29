@@ -7,7 +7,7 @@ toc_label: "PP"
 toc_icon: "cog"
 ---
 
-<small>Effective date : 01/01/2025</small>
+<small>Effective date : 01/01/2026</small>
 <br><small>Please read this privacy policy carefully before using Hirakata.</small>
 
 ### Privacy Policy & GDPR
